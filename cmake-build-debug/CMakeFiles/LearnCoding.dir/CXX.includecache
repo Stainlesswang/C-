@@ -6,7 +6,35 @@
 
 #IncludeRegexTransform: 
 
+E:/DevelopmentTools/CLion/LearnCoding/BiTree.cpp
+iostream
+-
+
+E:/DevelopmentTools/CLion/LearnCoding/Grap.cpp
+iostream
+-
+
+E:/DevelopmentTools/CLion/LearnCoding/MyOrder.cpp
+MyOrder.h
+E:/DevelopmentTools/CLion/LearnCoding/MyOrder.h
+
+E:/DevelopmentTools/CLion/LearnCoding/MyOrder.h
+
+E:/DevelopmentTools/CLion/LearnCoding/Search.cpp
+iostream
+-
+
+E:/DevelopmentTools/CLion/LearnCoding/SortFunctions.cpp
+SortFunctions.h
+E:/DevelopmentTools/CLion/LearnCoding/SortFunctions.h
+
+E:/DevelopmentTools/CLion/LearnCoding/SortFunctions.h
+iostream
+-
+
 E:/DevelopmentTools/CLion/LearnCoding/main.cpp
+SortFunctions.h
+E:/DevelopmentTools/CLion/LearnCoding/SortFunctions.h
 iostream
 -
 

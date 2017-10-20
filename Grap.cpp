@@ -250,17 +250,17 @@ void BF_Traverse_AL(LGraph &G)
         }
     }
 }
-void main()
-{
-    /*MGraph G; 
-    CreateUDG_AM(G,6,6); 
-    DF_Traverse_AM(G); 
-    cout<<endl; 
-    BF_Traverse_AM(G);*/
-
-    LGraph G;
-    CreateDG_AL(G,5,7);
-    DF_Traverse_AL(G);
-    cout<<endl;
-    BF_Traverse_AL(G);
-}
+//void main()
+//{
+//    /*MGraph G;
+//    CreateUDG_AM(G,6,6);
+//    DF_Traverse_AM(G);
+//    cout<<endl;
+//    BF_Traverse_AM(G);*/
+//
+//    LGraph G;
+//    CreateDG_AL(G,5,7);
+//    DF_Traverse_AL(G);
+//    cout<<endl;
+//    BF_Traverse_AL(G);
+//}

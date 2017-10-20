@@ -80,19 +80,149 @@ CMakeFiles/LearnCoding.dir/main.cpp.obj.provides: CMakeFiles/LearnCoding.dir/mai
 CMakeFiles/LearnCoding.dir/main.cpp.obj.provides.build: CMakeFiles/LearnCoding.dir/main.cpp.obj
 
 
+CMakeFiles/LearnCoding.dir/BiTree.cpp.obj: CMakeFiles/LearnCoding.dir/flags.make
+CMakeFiles/LearnCoding.dir/BiTree.cpp.obj: ../BiTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\DevelopmentTools\CLion\LearnCoding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LearnCoding.dir/BiTree.cpp.obj"
+	E:\DevelopmentTools\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LearnCoding.dir\BiTree.cpp.obj -c E:\DevelopmentTools\CLion\LearnCoding\BiTree.cpp
+
+CMakeFiles/LearnCoding.dir/BiTree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LearnCoding.dir/BiTree.cpp.i"
+	E:\DevelopmentTools\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\DevelopmentTools\CLion\LearnCoding\BiTree.cpp > CMakeFiles\LearnCoding.dir\BiTree.cpp.i
+
+CMakeFiles/LearnCoding.dir/BiTree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LearnCoding.dir/BiTree.cpp.s"
+	E:\DevelopmentTools\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\DevelopmentTools\CLion\LearnCoding\BiTree.cpp -o CMakeFiles\LearnCoding.dir\BiTree.cpp.s
+
+CMakeFiles/LearnCoding.dir/BiTree.cpp.obj.requires:
+
+.PHONY : CMakeFiles/LearnCoding.dir/BiTree.cpp.obj.requires
+
+CMakeFiles/LearnCoding.dir/BiTree.cpp.obj.provides: CMakeFiles/LearnCoding.dir/BiTree.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\LearnCoding.dir\build.make CMakeFiles/LearnCoding.dir/BiTree.cpp.obj.provides.build
+.PHONY : CMakeFiles/LearnCoding.dir/BiTree.cpp.obj.provides
+
+CMakeFiles/LearnCoding.dir/BiTree.cpp.obj.provides.build: CMakeFiles/LearnCoding.dir/BiTree.cpp.obj
+
+
+CMakeFiles/LearnCoding.dir/Grap.cpp.obj: CMakeFiles/LearnCoding.dir/flags.make
+CMakeFiles/LearnCoding.dir/Grap.cpp.obj: ../Grap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\DevelopmentTools\CLion\LearnCoding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LearnCoding.dir/Grap.cpp.obj"
+	E:\DevelopmentTools\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LearnCoding.dir\Grap.cpp.obj -c E:\DevelopmentTools\CLion\LearnCoding\Grap.cpp
+
+CMakeFiles/LearnCoding.dir/Grap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LearnCoding.dir/Grap.cpp.i"
+	E:\DevelopmentTools\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\DevelopmentTools\CLion\LearnCoding\Grap.cpp > CMakeFiles\LearnCoding.dir\Grap.cpp.i
+
+CMakeFiles/LearnCoding.dir/Grap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LearnCoding.dir/Grap.cpp.s"
+	E:\DevelopmentTools\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\DevelopmentTools\CLion\LearnCoding\Grap.cpp -o CMakeFiles\LearnCoding.dir\Grap.cpp.s
+
+CMakeFiles/LearnCoding.dir/Grap.cpp.obj.requires:
+
+.PHONY : CMakeFiles/LearnCoding.dir/Grap.cpp.obj.requires
+
+CMakeFiles/LearnCoding.dir/Grap.cpp.obj.provides: CMakeFiles/LearnCoding.dir/Grap.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\LearnCoding.dir\build.make CMakeFiles/LearnCoding.dir/Grap.cpp.obj.provides.build
+.PHONY : CMakeFiles/LearnCoding.dir/Grap.cpp.obj.provides
+
+CMakeFiles/LearnCoding.dir/Grap.cpp.obj.provides.build: CMakeFiles/LearnCoding.dir/Grap.cpp.obj
+
+
+CMakeFiles/LearnCoding.dir/Search.cpp.obj: CMakeFiles/LearnCoding.dir/flags.make
+CMakeFiles/LearnCoding.dir/Search.cpp.obj: ../Search.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\DevelopmentTools\CLion\LearnCoding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/LearnCoding.dir/Search.cpp.obj"
+	E:\DevelopmentTools\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LearnCoding.dir\Search.cpp.obj -c E:\DevelopmentTools\CLion\LearnCoding\Search.cpp
+
+CMakeFiles/LearnCoding.dir/Search.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LearnCoding.dir/Search.cpp.i"
+	E:\DevelopmentTools\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\DevelopmentTools\CLion\LearnCoding\Search.cpp > CMakeFiles\LearnCoding.dir\Search.cpp.i
+
+CMakeFiles/LearnCoding.dir/Search.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LearnCoding.dir/Search.cpp.s"
+	E:\DevelopmentTools\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\DevelopmentTools\CLion\LearnCoding\Search.cpp -o CMakeFiles\LearnCoding.dir\Search.cpp.s
+
+CMakeFiles/LearnCoding.dir/Search.cpp.obj.requires:
+
+.PHONY : CMakeFiles/LearnCoding.dir/Search.cpp.obj.requires
+
+CMakeFiles/LearnCoding.dir/Search.cpp.obj.provides: CMakeFiles/LearnCoding.dir/Search.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\LearnCoding.dir\build.make CMakeFiles/LearnCoding.dir/Search.cpp.obj.provides.build
+.PHONY : CMakeFiles/LearnCoding.dir/Search.cpp.obj.provides
+
+CMakeFiles/LearnCoding.dir/Search.cpp.obj.provides.build: CMakeFiles/LearnCoding.dir/Search.cpp.obj
+
+
+CMakeFiles/LearnCoding.dir/MyOrder.cpp.obj: CMakeFiles/LearnCoding.dir/flags.make
+CMakeFiles/LearnCoding.dir/MyOrder.cpp.obj: ../MyOrder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\DevelopmentTools\CLion\LearnCoding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/LearnCoding.dir/MyOrder.cpp.obj"
+	E:\DevelopmentTools\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LearnCoding.dir\MyOrder.cpp.obj -c E:\DevelopmentTools\CLion\LearnCoding\MyOrder.cpp
+
+CMakeFiles/LearnCoding.dir/MyOrder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LearnCoding.dir/MyOrder.cpp.i"
+	E:\DevelopmentTools\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\DevelopmentTools\CLion\LearnCoding\MyOrder.cpp > CMakeFiles\LearnCoding.dir\MyOrder.cpp.i
+
+CMakeFiles/LearnCoding.dir/MyOrder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LearnCoding.dir/MyOrder.cpp.s"
+	E:\DevelopmentTools\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\DevelopmentTools\CLion\LearnCoding\MyOrder.cpp -o CMakeFiles\LearnCoding.dir\MyOrder.cpp.s
+
+CMakeFiles/LearnCoding.dir/MyOrder.cpp.obj.requires:
+
+.PHONY : CMakeFiles/LearnCoding.dir/MyOrder.cpp.obj.requires
+
+CMakeFiles/LearnCoding.dir/MyOrder.cpp.obj.provides: CMakeFiles/LearnCoding.dir/MyOrder.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\LearnCoding.dir\build.make CMakeFiles/LearnCoding.dir/MyOrder.cpp.obj.provides.build
+.PHONY : CMakeFiles/LearnCoding.dir/MyOrder.cpp.obj.provides
+
+CMakeFiles/LearnCoding.dir/MyOrder.cpp.obj.provides.build: CMakeFiles/LearnCoding.dir/MyOrder.cpp.obj
+
+
+CMakeFiles/LearnCoding.dir/SortFunctions.cpp.obj: CMakeFiles/LearnCoding.dir/flags.make
+CMakeFiles/LearnCoding.dir/SortFunctions.cpp.obj: ../SortFunctions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\DevelopmentTools\CLion\LearnCoding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/LearnCoding.dir/SortFunctions.cpp.obj"
+	E:\DevelopmentTools\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LearnCoding.dir\SortFunctions.cpp.obj -c E:\DevelopmentTools\CLion\LearnCoding\SortFunctions.cpp
+
+CMakeFiles/LearnCoding.dir/SortFunctions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LearnCoding.dir/SortFunctions.cpp.i"
+	E:\DevelopmentTools\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\DevelopmentTools\CLion\LearnCoding\SortFunctions.cpp > CMakeFiles\LearnCoding.dir\SortFunctions.cpp.i
+
+CMakeFiles/LearnCoding.dir/SortFunctions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LearnCoding.dir/SortFunctions.cpp.s"
+	E:\DevelopmentTools\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\DevelopmentTools\CLion\LearnCoding\SortFunctions.cpp -o CMakeFiles\LearnCoding.dir\SortFunctions.cpp.s
+
+CMakeFiles/LearnCoding.dir/SortFunctions.cpp.obj.requires:
+
+.PHONY : CMakeFiles/LearnCoding.dir/SortFunctions.cpp.obj.requires
+
+CMakeFiles/LearnCoding.dir/SortFunctions.cpp.obj.provides: CMakeFiles/LearnCoding.dir/SortFunctions.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\LearnCoding.dir\build.make CMakeFiles/LearnCoding.dir/SortFunctions.cpp.obj.provides.build
+.PHONY : CMakeFiles/LearnCoding.dir/SortFunctions.cpp.obj.provides
+
+CMakeFiles/LearnCoding.dir/SortFunctions.cpp.obj.provides.build: CMakeFiles/LearnCoding.dir/SortFunctions.cpp.obj
+
+
 # Object files for target LearnCoding
 LearnCoding_OBJECTS = \
-"CMakeFiles/LearnCoding.dir/main.cpp.obj"
+"CMakeFiles/LearnCoding.dir/main.cpp.obj" \
+"CMakeFiles/LearnCoding.dir/BiTree.cpp.obj" \
+"CMakeFiles/LearnCoding.dir/Grap.cpp.obj" \
+"CMakeFiles/LearnCoding.dir/Search.cpp.obj" \
+"CMakeFiles/LearnCoding.dir/MyOrder.cpp.obj" \
+"CMakeFiles/LearnCoding.dir/SortFunctions.cpp.obj"
 
 # External object files for target LearnCoding
 LearnCoding_EXTERNAL_OBJECTS =
 
 LearnCoding.exe: CMakeFiles/LearnCoding.dir/main.cpp.obj
+LearnCoding.exe: CMakeFiles/LearnCoding.dir/BiTree.cpp.obj
+LearnCoding.exe: CMakeFiles/LearnCoding.dir/Grap.cpp.obj
+LearnCoding.exe: CMakeFiles/LearnCoding.dir/Search.cpp.obj
+LearnCoding.exe: CMakeFiles/LearnCoding.dir/MyOrder.cpp.obj
+LearnCoding.exe: CMakeFiles/LearnCoding.dir/SortFunctions.cpp.obj
 LearnCoding.exe: CMakeFiles/LearnCoding.dir/build.make
 LearnCoding.exe: CMakeFiles/LearnCoding.dir/linklibs.rsp
 LearnCoding.exe: CMakeFiles/LearnCoding.dir/objects1.rsp
 LearnCoding.exe: CMakeFiles/LearnCoding.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\DevelopmentTools\CLion\LearnCoding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable LearnCoding.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\DevelopmentTools\CLion\LearnCoding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable LearnCoding.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\LearnCoding.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -101,6 +231,11 @@ CMakeFiles/LearnCoding.dir/build: LearnCoding.exe
 .PHONY : CMakeFiles/LearnCoding.dir/build
 
 CMakeFiles/LearnCoding.dir/requires: CMakeFiles/LearnCoding.dir/main.cpp.obj.requires
+CMakeFiles/LearnCoding.dir/requires: CMakeFiles/LearnCoding.dir/BiTree.cpp.obj.requires
+CMakeFiles/LearnCoding.dir/requires: CMakeFiles/LearnCoding.dir/Grap.cpp.obj.requires
+CMakeFiles/LearnCoding.dir/requires: CMakeFiles/LearnCoding.dir/Search.cpp.obj.requires
+CMakeFiles/LearnCoding.dir/requires: CMakeFiles/LearnCoding.dir/MyOrder.cpp.obj.requires
+CMakeFiles/LearnCoding.dir/requires: CMakeFiles/LearnCoding.dir/SortFunctions.cpp.obj.requires
 
 .PHONY : CMakeFiles/LearnCoding.dir/requires
 

@@ -82,6 +82,27 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/DevelopmentTools/CLion/LearnCoding/BiTree.cpp">
+			<Option target="LearnCoding"/>
+		</Unit>
+		<Unit filename="E:/DevelopmentTools/CLion/LearnCoding/Grap.cpp">
+			<Option target="LearnCoding"/>
+		</Unit>
+		<Unit filename="E:/DevelopmentTools/CLion/LearnCoding/MyOrder.cpp">
+			<Option target="LearnCoding"/>
+		</Unit>
+		<Unit filename="E:/DevelopmentTools/CLion/LearnCoding/MyOrder.h">
+			<Option target="LearnCoding"/>
+		</Unit>
+		<Unit filename="E:/DevelopmentTools/CLion/LearnCoding/Search.cpp">
+			<Option target="LearnCoding"/>
+		</Unit>
+		<Unit filename="E:/DevelopmentTools/CLion/LearnCoding/SortFunctions.cpp">
+			<Option target="LearnCoding"/>
+		</Unit>
+		<Unit filename="E:/DevelopmentTools/CLion/LearnCoding/SortFunctions.h">
+			<Option target="LearnCoding"/>
+		</Unit>
 		<Unit filename="E:/DevelopmentTools/CLion/LearnCoding/main.cpp">
 			<Option target="LearnCoding"/>
 		</Unit>

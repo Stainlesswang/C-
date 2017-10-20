@@ -122,6 +122,141 @@ LearnCoding/fast:
 	$(MAKE) -f CMakeFiles\LearnCoding.dir\build.make CMakeFiles/LearnCoding.dir/build
 .PHONY : LearnCoding/fast
 
+BiTree.obj: BiTree.cpp.obj
+
+.PHONY : BiTree.obj
+
+# target to build an object file
+BiTree.cpp.obj:
+	$(MAKE) -f CMakeFiles\LearnCoding.dir\build.make CMakeFiles/LearnCoding.dir/BiTree.cpp.obj
+.PHONY : BiTree.cpp.obj
+
+BiTree.i: BiTree.cpp.i
+
+.PHONY : BiTree.i
+
+# target to preprocess a source file
+BiTree.cpp.i:
+	$(MAKE) -f CMakeFiles\LearnCoding.dir\build.make CMakeFiles/LearnCoding.dir/BiTree.cpp.i
+.PHONY : BiTree.cpp.i
+
+BiTree.s: BiTree.cpp.s
+
+.PHONY : BiTree.s
+
+# target to generate assembly for a file
+BiTree.cpp.s:
+	$(MAKE) -f CMakeFiles\LearnCoding.dir\build.make CMakeFiles/LearnCoding.dir/BiTree.cpp.s
+.PHONY : BiTree.cpp.s
+
+Grap.obj: Grap.cpp.obj
+
+.PHONY : Grap.obj
+
+# target to build an object file
+Grap.cpp.obj:
+	$(MAKE) -f CMakeFiles\LearnCoding.dir\build.make CMakeFiles/LearnCoding.dir/Grap.cpp.obj
+.PHONY : Grap.cpp.obj
+
+Grap.i: Grap.cpp.i
+
+.PHONY : Grap.i
+
+# target to preprocess a source file
+Grap.cpp.i:
+	$(MAKE) -f CMakeFiles\LearnCoding.dir\build.make CMakeFiles/LearnCoding.dir/Grap.cpp.i
+.PHONY : Grap.cpp.i
+
+Grap.s: Grap.cpp.s
+
+.PHONY : Grap.s
+
+# target to generate assembly for a file
+Grap.cpp.s:
+	$(MAKE) -f CMakeFiles\LearnCoding.dir\build.make CMakeFiles/LearnCoding.dir/Grap.cpp.s
+.PHONY : Grap.cpp.s
+
+MyOrder.obj: MyOrder.cpp.obj
+
+.PHONY : MyOrder.obj
+
+# target to build an object file
+MyOrder.cpp.obj:
+	$(MAKE) -f CMakeFiles\LearnCoding.dir\build.make CMakeFiles/LearnCoding.dir/MyOrder.cpp.obj
+.PHONY : MyOrder.cpp.obj
+
+MyOrder.i: MyOrder.cpp.i
+
+.PHONY : MyOrder.i
+
+# target to preprocess a source file
+MyOrder.cpp.i:
+	$(MAKE) -f CMakeFiles\LearnCoding.dir\build.make CMakeFiles/LearnCoding.dir/MyOrder.cpp.i
+.PHONY : MyOrder.cpp.i
+
+MyOrder.s: MyOrder.cpp.s
+
+.PHONY : MyOrder.s
+
+# target to generate assembly for a file
+MyOrder.cpp.s:
+	$(MAKE) -f CMakeFiles\LearnCoding.dir\build.make CMakeFiles/LearnCoding.dir/MyOrder.cpp.s
+.PHONY : MyOrder.cpp.s
+
+Search.obj: Search.cpp.obj
+
+.PHONY : Search.obj
+
+# target to build an object file
+Search.cpp.obj:
+	$(MAKE) -f CMakeFiles\LearnCoding.dir\build.make CMakeFiles/LearnCoding.dir/Search.cpp.obj
+.PHONY : Search.cpp.obj
+
+Search.i: Search.cpp.i
+
+.PHONY : Search.i
+
+# target to preprocess a source file
+Search.cpp.i:
+	$(MAKE) -f CMakeFiles\LearnCoding.dir\build.make CMakeFiles/LearnCoding.dir/Search.cpp.i
+.PHONY : Search.cpp.i
+
+Search.s: Search.cpp.s
+
+.PHONY : Search.s
+
+# target to generate assembly for a file
+Search.cpp.s:
+	$(MAKE) -f CMakeFiles\LearnCoding.dir\build.make CMakeFiles/LearnCoding.dir/Search.cpp.s
+.PHONY : Search.cpp.s
+
+SortFunctions.obj: SortFunctions.cpp.obj
+
+.PHONY : SortFunctions.obj
+
+# target to build an object file
+SortFunctions.cpp.obj:
+	$(MAKE) -f CMakeFiles\LearnCoding.dir\build.make CMakeFiles/LearnCoding.dir/SortFunctions.cpp.obj
+.PHONY : SortFunctions.cpp.obj
+
+SortFunctions.i: SortFunctions.cpp.i
+
+.PHONY : SortFunctions.i
+
+# target to preprocess a source file
+SortFunctions.cpp.i:
+	$(MAKE) -f CMakeFiles\LearnCoding.dir\build.make CMakeFiles/LearnCoding.dir/SortFunctions.cpp.i
+.PHONY : SortFunctions.cpp.i
+
+SortFunctions.s: SortFunctions.cpp.s
+
+.PHONY : SortFunctions.s
+
+# target to generate assembly for a file
+SortFunctions.cpp.s:
+	$(MAKE) -f CMakeFiles\LearnCoding.dir\build.make CMakeFiles/LearnCoding.dir/SortFunctions.cpp.s
+.PHONY : SortFunctions.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -158,6 +293,21 @@ help:
 	@echo ... LearnCoding
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... BiTree.obj
+	@echo ... BiTree.i
+	@echo ... BiTree.s
+	@echo ... Grap.obj
+	@echo ... Grap.i
+	@echo ... Grap.s
+	@echo ... MyOrder.obj
+	@echo ... MyOrder.i
+	@echo ... MyOrder.s
+	@echo ... Search.obj
+	@echo ... Search.i
+	@echo ... Search.s
+	@echo ... SortFunctions.obj
+	@echo ... SortFunctions.i
+	@echo ... SortFunctions.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

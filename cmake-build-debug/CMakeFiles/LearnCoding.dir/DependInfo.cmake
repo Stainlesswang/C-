@@ -4,6 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "E:/DevelopmentTools/CLion/LearnCoding/BiTree.cpp" "E:/DevelopmentTools/CLion/LearnCoding/cmake-build-debug/CMakeFiles/LearnCoding.dir/BiTree.cpp.obj"
+  "E:/DevelopmentTools/CLion/LearnCoding/Grap.cpp" "E:/DevelopmentTools/CLion/LearnCoding/cmake-build-debug/CMakeFiles/LearnCoding.dir/Grap.cpp.obj"
+  "E:/DevelopmentTools/CLion/LearnCoding/MyOrder.cpp" "E:/DevelopmentTools/CLion/LearnCoding/cmake-build-debug/CMakeFiles/LearnCoding.dir/MyOrder.cpp.obj"
+  "E:/DevelopmentTools/CLion/LearnCoding/Search.cpp" "E:/DevelopmentTools/CLion/LearnCoding/cmake-build-debug/CMakeFiles/LearnCoding.dir/Search.cpp.obj"
+  "E:/DevelopmentTools/CLion/LearnCoding/SortFunctions.cpp" "E:/DevelopmentTools/CLion/LearnCoding/cmake-build-debug/CMakeFiles/LearnCoding.dir/SortFunctions.cpp.obj"
   "E:/DevelopmentTools/CLion/LearnCoding/main.cpp" "E:/DevelopmentTools/CLion/LearnCoding/cmake-build-debug/CMakeFiles/LearnCoding.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

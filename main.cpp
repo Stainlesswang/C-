@@ -1,133 +1,43 @@
-
-/***********************二叉树遍历*********************/
+#include "SortFunctions.h"
 #include <iostream>
-
 using namespace std;
 
-template<class Type>
-class BSTree;
-
-template<class Type>
-class BinaryNode{
-    friend class BSTree<Type>;
-public:
-    BinaryNode(): left(NULL),right(NULL){}
-    BinaryNode(const Type& value): data(value),left(NULL),right(NULL){}
-private:
-    Type data;
-    BinaryNode *left;
-    BinaryNode *right;
-
-};
-
-template<class Type>
-class BSTree{
-    BinaryNode<Type> *root;
-public:
-    BSTree(): root(NULL){}
-    BinaryNode<Type>* GetRoot() const{return root;}
-    //用来加入一个新的值,并返回加入的值
-    Type AddValue(const Type& value);
-    //以startNode为根节点打印其子节点数据
-    void printData_NLR(const BinaryNode<Type> *startNode); //前序遍历
-    void printData_LNR(const BinaryNode<Type> *startNode); //中序遍历
-    void printData_LRN(const BinaryNode<Type> *startNode); //后续遍历
-    void Cout(){
-
+/*定义输出一维数组的函数*/
+void print(int array[], int n)
+{
+    for (int i = 0; i < n; i++)
+    {
+        cout << array[i] << " ";
     }
-};
-
-template<class Type>
-Type BSTree<Type>::AddValue(const Type& value){
-    if(root == NULL){
-        root = new BinaryNode<Type>(value);
-    }else{
-        BinaryNode<Type> *node = root;
-        while(1){
-            if(value > node->data){
-                if(node->right == NULL){            //此时node已经定位在空的节点处了
-                    node->right = new BinaryNode<Type>(value);
-                    break;
-                }else{
-                    node = node->right;
-                }
-            }else{
-                if(node->left == NULL){
-                    node->left = new BinaryNode<Type>(value);
-                    break;
-                }else{
-                    node = node->left;
-                }
-            }
-
-        }
-    }
-    return value;
+    cout << endl;
 }
-
-
-//前序遍历
-template<class Type>
-void BSTree<Type>::printData_NLR(const BinaryNode<Type> *startNode){
-    if(startNode == NULL){
-        return;
-    }else{
-        cout << startNode->data << " ";
-        printData_NLR(startNode->left);
-        printData_NLR(startNode->right);
-    }
-}
-
-
-//中序遍历
-template<class Type>
-void BSTree<Type>::printData_LNR(const BinaryNode<Type> *startNode){
-    if(startNode == NULL){
-        return;
-    }else{
-        printData_LNR(startNode->left);
-        cout << startNode->data << " ";
-        printData_LNR(startNode->right);
-    }
-}
-
-
-//后序遍历
-template<class Type>
-void BSTree<Type>::printData_LRN(const BinaryNode<Type> *startNode){
-    if(startNode == NULL){
-        return;
-    }else{
-        printData_LRN(startNode->left);
-        printData_LRN(startNode->right);
-        cout << startNode->data << " ";
-    }
-}
-
-
-int main(){
-    BSTree<int> tree;
-    /********************填充数据*****************************/
-    tree.AddValue(7);
-    tree.AddValue(4);
-    tree.AddValue(10);
-    tree.AddValue(1);
-    tree.AddValue(5);
-    tree.AddValue(-1);
-    tree.AddValue(2);
-    tree.AddValue(9);
-    tree.AddValue(13);
-    tree.AddValue(12);
-    tree.AddValue(11);
-    tree.AddValue(14);
-    /*********************************************************/
-
-    cout << "前序遍历" << endl;
-    tree.printData_NLR(tree.GetRoot());
-    cout << "\n\n中序遍历" << endl;
-    tree.printData_LNR(tree.GetRoot());
-    cout << "\n\n后序遍历" << endl;
-    tree.printData_LRN(tree.GetRoot());
-
+int main() {
+/***顺序查找测试***/
+//    int arr[] = {1, 23, 5, 45, 2, 54};
+//    int len = sizeof(arr) / sizeof(arr[2]);
+//    shunxuSearch(arr, 4, len);
+/***二分法查找的递归与非递归的测试*/
+//    cout<<"No recursive:"<<endl;
+//    cout<<"position:"<<BinarySearch(arr, 13, 6)<<endl;
+//    cout<<"recursive:"<<endl;
+//    cout<<"position:"<<BinarySearchDiGui(arr, 0, 12, 6)<<endl;
+/***测试数据，一个整数数组，一个数组大小k***/
+    int a[]={76,98,109,86,67,190,80,12,14,89,1};
+//    int k=sizeof(a)/sizeof(a[0]);
+/***直接插入算法测试***/
+    SortFunctions sortFunctions;
+//    sortFunctions.insertSort(a,k);
+/***希尔排序算法测试***/
+    //定义待排序的一维数组
+    int array[] = { 1, 3, 4, 5, 2, 6, 10, 9, 8, 7 };
+    //输出原始数组
+    cout << "原始数组是：" << endl;
+    print(array, 10);
+    //对数组进行排序
+    int count = sortFunctions.shellSort(array, 10);
+    //输出排序后的数组
+    cout << "排序后的数组是：" << endl;
+    print(array, 10);
+    cout << "共交换" << count << "次" << endl;
     return 0;
 }
